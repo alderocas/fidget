@@ -1632,6 +1632,68 @@
                   200.0,
                   50.0
                 ]
+              },
+              {
+                "id": "15:1",
+                "name": "rect5",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 1534.0,
+                  "y": -650.0,
+                  "width": 300.0,
+                  "height": 300.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    50.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    50.0
+                  ]
+                ],
+                "size": {
+                  "x": 300.0,
+                  "y": 300.0
+                },
+                "fills": [],
+                "fillGeometry": [],
+                "strokes": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "strokeWeight": 2.0,
+                "strokeAlign": "CENTER",
+                "strokeGeometry": [
+                  {
+                    "path": "M100 1L280 1L280 -1L100 -1L100 1ZM299 20L299 100L301 100L301 20L299 20ZM100 299L50 299L50 301L100 301L100 299ZM1 250L1 100L-1 100L-1 250L1 250ZM50 299C22.9381 299 1 277.062 1 250L-1 250C-1 278.167 21.8335 301 50 301L50 299ZM299 100C299 209.905 209.905 299 100 299L100 301C211.009 301 301 211.009 301 100L299 100ZM280 1C290.493 1 299 9.50659 299 20L301 20C301 8.40202 291.598 -1 280 -1L280 1ZM100 -1C44.2192 -1 -1 44.2192 -1 100L1 100C1 45.3238 45.3238 1 100 1L100 -1Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "effects": [],
+                "rectangleCornerRadii": [
+                  100.0,
+                  20.0,
+                  200.0,
+                  50.0
+                ]
               }
             ],
             "absoluteBoundingBox": {
@@ -5796,15 +5858,15 @@
             "blendMode": "PASS_THROUGH",
             "children": [
               {
-                "id": "11:34",
+                "id": "17:3",
                 "name": "image",
                 "type": "RECTANGLE",
                 "blendMode": "PASS_THROUGH",
                 "absoluteBoundingBox": {
-                  "x": 1176.0,
-                  "y": 420.0,
-                  "width": 156.0,
-                  "height": 160.0
+                  "x": 1135.0,
+                  "y": 322.0,
+                  "width": 238.0,
+                  "height": 357.0
                 },
                 "preserveRatio": true,
                 "constraints": {
@@ -5815,17 +5877,17 @@
                   [
                     1.0,
                     0.0,
-                    122.0
+                    81.0
                   ],
                   [
                     0.0,
                     1.0,
-                    120.0
+                    22.0
                   ]
                 ],
                 "size": {
-                  "x": 156.0,
-                  "y": 160.0
+                  "x": 238.0,
+                  "y": 357.0
                 },
                 "fills": [
                   {
@@ -5845,21 +5907,21 @@
                     "imageRef": "150f0f9d9891ae60b71f26521df56d94471258bb",
                     "imageTransform": [
                       [
-                        1.0,
+                        0.529280960559845,
                         0.0,
-                        0.0
+                        0.4714604020118713
                       ],
                       [
                         0.0,
-                        0.6837607026100159,
-                        0.1581196635961533
+                        0.529280960559845,
+                        0.4707190692424774
                       ]
                     ]
                   }
                 ],
                 "fillGeometry": [
                   {
-                    "path": "M0 0L156 0L156 160L0 160L0 0Z",
+                    "path": "M0 0L238 0L238 357L0 357L0 0Z",
                     "windingRule": "NONZERO"
                   }
                 ],
@@ -5885,6 +5947,228 @@
                 1.0,
                 0.0,
                 1054.0
+              ],
+              [
+                0.0,
+                1.0,
+                300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
+            "id": "19:1",
+            "name": "image 7",
+            "type": "RECTANGLE",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 1080.0,
+              "y": -192.0,
+              "width": 337.0,
+              "height": 418.0
+            },
+            "preserveRatio": true,
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                1080.0
+              ],
+              [
+                0.0,
+                1.0,
+                -192.0
+              ]
+            ],
+            "size": {
+              "x": 337.0,
+              "y": 418.0
+            },
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "IMAGE",
+                "scaleMode": "FILL",
+                "imageRef": "67da921556571eb5aeb384874938739c3fc15ff5"
+              }
+            ],
+            "fillGeometry": [
+              {
+                "path": "M0 0L337 0L337 418L0 418L0 0Z",
+                "windingRule": "NONZERO"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "strokeGeometry": [],
+            "effects": []
+          },
+          {
+            "id": "18:0",
+            "name": "image_crop_iden",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "18:1",
+                "name": "image",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 2115.0,
+                  "y": 322.0,
+                  "width": 238.0,
+                  "height": 357.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    81.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    22.0
+                  ]
+                ],
+                "size": {
+                  "x": 238.0,
+                  "y": 357.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1.0,
+                      "g": 0.3599999845027924,
+                      "b": 0.0,
+                      "a": 1.0
+                    }
+                  },
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "IMAGE",
+                    "scaleMode": "STRETCH",
+                    "imageRef": "150f0f9d9891ae60b71f26521df56d94471258bb",
+                    "imageTransform": [
+                      [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    ]
+                  }
+                ],
+                "fillGeometry": [
+                  {
+                    "path": "M0 0L238 0L238 357L0 357L0 0Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "INSIDE",
+                "strokeGeometry": [],
+                "effects": []
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2034.0,
+              "y": 300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                2034.0
               ],
               [
                 0.0,
@@ -9270,8 +9554,8 @@
   "schemaVersion": 0,
   "styles": {},
   "name": "Fidget Mirror Test",
-  "lastModified": "2020-10-31T19:01:34.393645Z",
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/c307449d-b2ca-4c0d-9990-f243eb0780c4?Expires=1604880000&Signature=GkMzjNxVbGNJEWfmJbtq3MiC0tKULTQIkdMn0LL1aNO6ULmK-cfM~sQZFxlklZIkZuqRBMfIajKLIU3dDvIAV6tg-H2IyBrm-PIBQ3QHSr3wL8b0Fa6baP0tEJQD8ckcgunv13uMzHnQvhUhH5WO2kP5RMP3h7pUn5zAuZsEtDAVMFEcuwKHarXgGe33AuJYCFXZHYfthmmldXy8f11ESscJ-inIRiRiNlDwGeqHyKQHgP4LmP0TVNvwCt8Sgroz3jZmapD2U9638UTscRX89aTsV4LGxceALbJ7s54NSltm~BpZxVvpu609NTRI~9XKMMvROkHB01ipXViNovAg~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "523308719",
+  "lastModified": "2020-11-01T05:03:31.383901Z",
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/26bf7c5a-2e80-423f-8a7c-6abec238e259?Expires=1604880000&Signature=OonGF09Yus8vLoOsgzBXOa4LRqdBJLYjwuB9MajtiCSYYNxEV19yIOv-oqPceoCcdpsvN86BluHbU25V1WKecxPaN4HJcDbM~lyOep5KG9T2APs2kuwpWJQ5-h5nPDjwpcucnXiIzVwzrIlNJpP8dN7DGj6h0klYedV4GnW0UHbMFIz92cuL~XxTxCqHUSVwn-bc3U62DndBUqTi0ZNmSJcqTNGjxV4WERktU~-UjHemV3GZ4ClI046mfZlwrrCD0RztlyIxbAssxZRiEFjars8Zknh57FFJ~Hx9xryurhuvneeq2RKBL8WyC-6bQYGAp~fPqF0aZlG-xYbPcmfa7g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "523460573",
   "role": "owner"
 }
