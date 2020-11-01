@@ -1392,6 +1392,373 @@
             "strokeGeometry": []
           },
           {
+            "id": "14:0",
+            "name": "stroke_crazy_rect",
+            "visible": false,
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "14:2",
+                "name": "rect5",
+                "visible": false,
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "children": [],
+                "prototypeStartNodeID": "",
+                "prototypeDevice": null,
+                "absoluteBoundingBox": {
+                  "x": 1094.0,
+                  "y": -650.0,
+                  "width": 300.0,
+                  "height": 300.0
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "layoutAlign": "",
+                "clipsContent": false,
+                "background": [],
+                "fills": [],
+                "strokes": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1.0,
+                      "g": 0.3599999845027924,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "scaleMode": "",
+                    "imageRef": "",
+                    "imageTransform": [],
+                    "scalingFactor": 0.0
+                  }
+                ],
+                "strokeWeight": 10.0,
+                "strokeAlign": "INSIDE",
+                "backgroundColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "layoutGrids": [],
+                "layoutMode": "",
+                "itemSpacing": 0.0,
+                "effects": [],
+                "cornerRadius": 0.0,
+                "rectangleCornerRadii": [
+                  100.0,
+                  20.0,
+                  200.0,
+                  50.0
+                ],
+                "characters": "",
+                "style": null,
+                "fillGeometry": [
+                  {
+                    "path": "M0 100C0 44.7715 44.7715 0 100 0L280 0C291.046 0 300 8.95431 300 20L300 100C300 210.457 210.457 300 100 300L50 300C22.3858 300 0 277.614 0 250L0 100Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokeGeometry": [
+                  {
+                    "path": "M100 10L280 10L280 -10L100 -10L100 10ZM290 20L290 100L310 100L310 20L290 20ZM100 290L50 290L50 310L100 310L100 290ZM10 250L10 100L-10 100L-10 250L10 250ZM50 290C27.9086 290 10 272.091 10 250L-10 250C-10 283.137 16.8629 310 50 310L50 290ZM290 100C290 204.934 204.934 290 100 290L100 310C215.98 310 310 215.98 310 100L290 100ZM280 10C285.523 10 290 14.4772 290 20L310 20C310 3.43146 296.569 -10 280 -10L280 10ZM100 -10C39.2487 -10 -10 39.2487 -10 100L10 100C10 50.2944 50.2944 10 100 10L100 -10Z",
+                    "windingRule": "NONZERO"
+                  }
+                ]
+              }
+            ],
+            "prototypeStartNodeID": "",
+            "prototypeDevice": null,
+            "absoluteBoundingBox": {
+              "x": 1044.0,
+              "y": -700.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "layoutAlign": "",
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "scaleMode": "",
+                "imageRef": "",
+                "imageTransform": [],
+                "scalingFactor": 0.0
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "scaleMode": "",
+                "imageRef": "",
+                "imageTransform": [],
+                "scalingFactor": 0.0
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [],
+            "layoutMode": "",
+            "itemSpacing": 0.0,
+            "effects": [],
+            "cornerRadius": 0.0,
+            "rectangleCornerRadii": [],
+            "characters": "",
+            "style": null,
+            "fillGeometry": [],
+            "strokeGeometry": []
+          },
+          {
+            "id": "14:3",
+            "name": "stroke_crazy_rect_outside",
+            "visible": false,
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "14:4",
+                "name": "rect5",
+                "visible": false,
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "children": [],
+                "prototypeStartNodeID": "",
+                "prototypeDevice": null,
+                "absoluteBoundingBox": {
+                  "x": 1534.0,
+                  "y": -650.0,
+                  "width": 300.0,
+                  "height": 300.0
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "layoutAlign": "",
+                "clipsContent": false,
+                "background": [],
+                "fills": [],
+                "strokes": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1.0,
+                      "g": 0.3599999845027924,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "scaleMode": "",
+                    "imageRef": "",
+                    "imageTransform": [],
+                    "scalingFactor": 0.0
+                  }
+                ],
+                "strokeWeight": 10.0,
+                "strokeAlign": "INSIDE",
+                "backgroundColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "layoutGrids": [],
+                "layoutMode": "",
+                "itemSpacing": 0.0,
+                "effects": [],
+                "cornerRadius": 0.0,
+                "rectangleCornerRadii": [
+                  100.0,
+                  20.0,
+                  200.0,
+                  50.0
+                ],
+                "characters": "",
+                "style": null,
+                "fillGeometry": [
+                  {
+                    "path": "M0 100C0 44.7715 44.7715 0 100 0L280 0C291.046 0 300 8.95431 300 20L300 100C300 210.457 210.457 300 100 300L50 300C22.3858 300 0 277.614 0 250L0 100Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokeGeometry": [
+                  {
+                    "path": "M100 10L280 10L280 -10L100 -10L100 10ZM290 20L290 100L310 100L310 20L290 20ZM100 290L50 290L50 310L100 310L100 290ZM10 250L10 100L-10 100L-10 250L10 250ZM50 290C27.9086 290 10 272.091 10 250L-10 250C-10 283.137 16.8629 310 50 310L50 290ZM290 100C290 204.934 204.934 290 100 290L100 310C215.98 310 310 215.98 310 100L290 100ZM280 10C285.523 10 290 14.4772 290 20L310 20C310 3.43146 296.569 -10 280 -10L280 10ZM100 -10C39.2487 -10 -10 39.2487 -10 100L10 100C10 50.2944 50.2944 10 100 10L100 -10Z",
+                    "windingRule": "NONZERO"
+                  }
+                ]
+              },
+              {
+                "id": "15:0",
+                "name": "rect5",
+                "visible": false,
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "children": [],
+                "prototypeStartNodeID": "",
+                "prototypeDevice": null,
+                "absoluteBoundingBox": {
+                  "x": 1534.0,
+                  "y": -650.0,
+                  "width": 300.0,
+                  "height": 300.0
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "layoutAlign": "",
+                "clipsContent": false,
+                "background": [],
+                "fills": [],
+                "strokes": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.5284373760223389,
+                      "g": 0.9375,
+                      "b": 0.20703125,
+                      "a": 1.0
+                    },
+                    "scaleMode": "",
+                    "imageRef": "",
+                    "imageTransform": [],
+                    "scalingFactor": 0.0
+                  }
+                ],
+                "strokeWeight": 20.0,
+                "strokeAlign": "OUTSIDE",
+                "backgroundColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "layoutGrids": [],
+                "layoutMode": "",
+                "itemSpacing": 0.0,
+                "effects": [],
+                "cornerRadius": 0.0,
+                "rectangleCornerRadii": [
+                  100.0,
+                  20.0,
+                  200.0,
+                  50.0
+                ],
+                "characters": "",
+                "style": null,
+                "fillGeometry": [
+                  {
+                    "path": "M0 100C0 44.7715 44.7715 0 100 0L280 0C291.046 0 300 8.95431 300 20L300 100C300 210.457 210.457 300 100 300L50 300C22.3858 300 0 277.614 0 250L0 100Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokeGeometry": [
+                  {
+                    "path": "M100 20L280 20L280 -20L100 -20L100 20ZM280 20L280 100L320 100L320 20L280 20ZM100 280L50 280L50 320L100 320L100 280ZM20 250L20 100L-20 100L-20 250L20 250ZM50 280C33.4315 280 20 266.569 20 250L-20 250C-20 288.66 11.3401 320 50 320L50 280ZM280 100C280 199.411 199.411 280 100 280L100 320C221.503 320 320 221.503 320 100L280 100ZM280 20C280.014 20 280.022 20.0007 280.024 20.0009C280.026 20.0011 280.025 20.0011 280.021 20.0003C280.017 19.9995 280.013 19.9983 280.007 19.9967C280.002 19.9951 279.998 19.9934 279.994 19.9918C279.986 19.9885 279.984 19.9867 279.986 19.9881C279.989 19.9899 279.994 19.9939 280 20C280.006 20.0061 280.01 20.0114 280.012 20.0139C280.013 20.0162 280.011 20.0138 280.008 20.0061C280.007 20.0023 280.005 19.9977 280.003 19.9926C280.002 19.9874 280 19.9826 280 19.9788C279.999 19.9749 279.999 19.9737 279.999 19.9758C279.999 19.9779 280 19.9856 280 20L320 20C320 -2.09139 302.091 -20 280 -20L280 20ZM100 -20C33.7258 -20 -20 33.7258 -20 100L20 100C20 55.8172 55.8172 20 100 20L100 -20Z",
+                    "windingRule": "NONZERO"
+                  }
+                ]
+              }
+            ],
+            "prototypeStartNodeID": "",
+            "prototypeDevice": null,
+            "absoluteBoundingBox": {
+              "x": 1484.0,
+              "y": -700.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "layoutAlign": "",
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "scaleMode": "",
+                "imageRef": "",
+                "imageTransform": [],
+                "scalingFactor": 0.0
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "scaleMode": "",
+                "imageRef": "",
+                "imageTransform": [],
+                "scalingFactor": 0.0
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [],
+            "layoutMode": "",
+            "itemSpacing": 0.0,
+            "effects": [],
+            "cornerRadius": 0.0,
+            "rectangleCornerRadii": [],
+            "characters": "",
+            "style": null,
+            "fillGeometry": [],
+            "strokeGeometry": []
+          },
+          {
             "id": "2:6",
             "name": "constraints",
             "visible": false,
@@ -9371,8 +9738,8 @@
   "components": {},
   "schemaVersion": 0,
   "name": "Fidget Mirror Test",
-  "lastModified": "2020-10-31T16:34:13.12366Z",
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/b279b990-2493-43b2-9913-1f24ddd7da97?Expires=1604880000&Signature=ASXTLVl-w6Rt~pigCynNKyy-qwagK6hvUuGagICsGse3ExEqcWL84E1tTUEBJ7fRghKz8I7INihA1fpxOuNX9hpofE5sJx3YlGLm-yAwiqPMJZ9nIjmjBUEpcCvsIdq~ZqT0MoIwOzFotRmv7GawWzWXlj~HPqOj4Ie5soZEC3lpgpHLjb7gZaOmbI-tulGHt4cQuLgfvCtmS-6W9B4mGg4THBTUbVveFw~oDPLmGc6PoRnFoz9lnDeFlyEEb1IrcY-AgGkRdvzhQF3NhVbUQhpVN-W~t9bbxVt3TT5Zt85VBEn8hM9yGX2-tmciYfPa-H08J2d7YbF3Nhz32TULpg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "523230209",
+  "lastModified": "2020-10-31T19:01:34.393645Z",
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/c307449d-b2ca-4c0d-9990-f243eb0780c4?Expires=1604880000&Signature=GkMzjNxVbGNJEWfmJbtq3MiC0tKULTQIkdMn0LL1aNO6ULmK-cfM~sQZFxlklZIkZuqRBMfIajKLIU3dDvIAV6tg-H2IyBrm-PIBQ3QHSr3wL8b0Fa6baP0tEJQD8ckcgunv13uMzHnQvhUhH5WO2kP5RMP3h7pUn5zAuZsEtDAVMFEcuwKHarXgGe33AuJYCFXZHYfthmmldXy8f11ESscJ-inIRiRiNlDwGeqHyKQHgP4LmP0TVNvwCt8Sgroz3jZmapD2U9638UTscRX89aTsV4LGxceALbJ7s54NSltm~BpZxVvpu609NTRI~9XKMMvROkHB01ipXViNovAg~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "523308719",
   "role": "owner"
 }
