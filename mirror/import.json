@@ -6399,6 +6399,860 @@
             "effects": []
           },
           {
+            "id": "23:0",
+            "name": "shadow",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "23:4",
+                "name": "rect5",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": -367.0,
+                  "y": 2400.0,
+                  "width": 200.0,
+                  "height": 200.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    100.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    100.0
+                  ]
+                ],
+                "size": {
+                  "x": 200.0,
+                  "y": 200.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9083333611488342,
+                      "g": 0.9083333611488342,
+                      "b": 0.9083333611488342,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "fillGeometry": [
+                  {
+                    "path": "M0 0L200 0L200 200L0 200L0 0Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "INSIDE",
+                "strokeGeometry": [],
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "visible": true,
+                    "color": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "blendMode": "NORMAL",
+                    "offset": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "radius": 50.0
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": -467.0,
+              "y": 2300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                -467.0
+              ],
+              [
+                0.0,
+                1.0,
+                2300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
+            "id": "55:6",
+            "name": "text_shadow",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "55:8",
+                "name": "Red",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 1644.0,
+                  "y": 2443.0,
+                  "width": 178.0,
+                  "height": 115.0
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    111.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    143.0
+                  ]
+                ],
+                "size": {
+                  "x": 178.0,
+                  "y": 115.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "OUTSIDE",
+                "strokeGeometry": [],
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "visible": true,
+                    "color": {
+                      "r": 1.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "blendMode": "NORMAL",
+                    "offset": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "radius": 20.0
+                  }
+                ],
+                "characters": "Red",
+                "style": {
+                  "fontFamily": "Ubuntu",
+                  "fontPostScriptName": "Ubuntu",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 100.0,
+                  "textAlignHorizontal": "CENTER",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0.0,
+                  "lineHeightPx": 117.1875,
+                  "lineHeightPercent": 100.0,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {}
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1533.0,
+              "y": 2300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                1533.0
+              ],
+              [
+                0.0,
+                1.0,
+                2300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
+            "id": "23:7",
+            "name": "shadow_inner",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "23:8",
+                "name": "rect5",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 633.0,
+                  "y": 2400.0,
+                  "width": 200.0,
+                  "height": 200.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    100.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    100.0
+                  ]
+                ],
+                "size": {
+                  "x": 200.0,
+                  "y": 200.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9083333611488342,
+                      "g": 0.9083333611488342,
+                      "b": 0.9083333611488342,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "fillGeometry": [
+                  {
+                    "path": "M0 0L200 0L200 200L0 200L0 0Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "INSIDE",
+                "strokeGeometry": [],
+                "effects": [
+                  {
+                    "type": "INNER_SHADOW",
+                    "visible": true,
+                    "color": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "blendMode": "NORMAL",
+                    "offset": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "radius": 50.0
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 533.0,
+              "y": 2300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                533.0
+              ],
+              [
+                0.0,
+                1.0,
+                2300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
+            "id": "23:5",
+            "name": "glow",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "23:6",
+                "name": "rect5",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 133.0,
+                  "y": 2400.0,
+                  "width": 200.0,
+                  "height": 200.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    100.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    100.0
+                  ]
+                ],
+                "size": {
+                  "x": 200.0,
+                  "y": 200.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.08749999850988388,
+                      "g": 0.08749999850988388,
+                      "b": 0.08749999850988388,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "fillGeometry": [
+                  {
+                    "path": "M0 0L200 0L200 200L0 200L0 0Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "INSIDE",
+                "strokeGeometry": [],
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "visible": true,
+                    "color": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0
+                    },
+                    "blendMode": "NORMAL",
+                    "offset": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "radius": 50.0
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 33.0,
+              "y": 2300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                33.0
+              ],
+              [
+                0.0,
+                1.0,
+                2300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
+            "id": "23:9",
+            "name": "glow_inner",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "23:10",
+                "name": "rect5",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 1133.0,
+                  "y": 2400.0,
+                  "width": 200.0,
+                  "height": 200.0
+                },
+                "preserveRatio": true,
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "relativeTransform": [
+                  [
+                    1.0,
+                    0.0,
+                    100.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    100.0
+                  ]
+                ],
+                "size": {
+                  "x": 200.0,
+                  "y": 200.0
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.08749999850988388,
+                      "g": 0.08749999850988388,
+                      "b": 0.08749999850988388,
+                      "a": 1.0
+                    }
+                  }
+                ],
+                "fillGeometry": [
+                  {
+                    "path": "M0 0L200 0L200 200L0 200L0 0Z",
+                    "windingRule": "NONZERO"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1.0,
+                "strokeAlign": "INSIDE",
+                "strokeGeometry": [],
+                "effects": [
+                  {
+                    "type": "INNER_SHADOW",
+                    "visible": true,
+                    "color": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0
+                    },
+                    "blendMode": "NORMAL",
+                    "offset": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "radius": 50.0
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1033.0,
+              "y": 2300.0,
+              "width": 400.0,
+              "height": 400.0
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "relativeTransform": [
+              [
+                1.0,
+                0.0,
+                1033.0
+              ],
+              [
+                0.0,
+                1.0,
+                2300.0
+              ]
+            ],
+            "size": {
+              "x": 400.0,
+              "y": 400.0
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1.0,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "layoutGrids": [
+              {
+                "pattern": "GRID",
+                "sectionSize": 10.0,
+                "visible": false,
+                "color": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.1000000014901161
+                },
+                "alignment": "MIN",
+                "gutterSize": 0,
+                "offset": 0,
+                "count": -1
+              }
+            ],
+            "exportSettings": [
+              {
+                "suffix": "",
+                "format": "PNG",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 1.0
+                }
+              }
+            ],
+            "effects": []
+          },
+          {
             "id": "20:0",
             "name": "masking_complex",
             "type": "FRAME",
@@ -9709,8 +10563,8 @@
   "schemaVersion": 0,
   "styles": {},
   "name": "Fidget Mirror Test",
-  "lastModified": "2020-11-01T16:43:05.003859Z",
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/65e0914a-d4b2-471d-bcb5-7e33bbb7cdff?Expires=1604880000&Signature=e0hnKnrEUgy77bJLZ6jsqaLg9KfxCQhw2qUeh-HPIKbtNsg4OYAmsCaYVLYZrURUV8bBOVN4L-6l2RkGPIjTChghYq8RpruZz~7XDcVyZOVy-eesVHPWQSsSGrwYl8B09QGOSRCGRtsniPukxMqlW1FzAlzV0f5pW9LWTCk3oQ~WU4aRgYh7LiNvdLBBWMF72pXG02saxE8cIcDPC41df-OS3qiRo4DrLcZWcqXbsyiGdlqaQxmPPpiDLV5q1k8S89VX5IUQU~ESJSpduvtimOM-AiF1BSg8mVsMtEVhhx05jn-LmNSAdRQYm0wFmxECI1p52RHklr0iD0I781TH5A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "523791098",
+  "lastModified": "2020-11-02T16:14:48.519533Z",
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/ce7dc46a-2189-4052-af3c-b75696a1fb39?Expires=1605484800&Signature=UJkZsLI9vzJ-qaH1TRgGLQEhF~oRDUBQwT2aL1RjyoUXMq7f~Ggql22mCM1TLPBghE1qHUvcMnBeQPjeJ0WlmhIQan3rnH5uevZOjdc9HqSmS7VC5wVWKrjJZWJ9~4uYv4Fyj4alXoknjNDIDrM5dqPE7F0Avs8G90~ow2kokP1-jSe0yLfFjAqEOdRSr13gLTrOiihsHt7LeRWwYDsfg1JPApkJxZJSJiZO4TS9sAGgpJQ6cNg3Vbjiea4~eAqNx2oLDRrl5BNTYMjVmmgbVerBLIq3uP8hWqO2UpbgwUCsAd~ArjSFESR6Ee2ifFdf3oDXgeWawOMz0I9QjAcVAQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "525199462",
   "role": "owner"
 }
